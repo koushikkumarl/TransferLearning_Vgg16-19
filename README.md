@@ -1,4 +1,5 @@
 Download the dataset from: https://www.kaggle.com/alxmamaev/flowers-recognition
+Checkout the article on transfer learning: https://medium.com/@koushik1102/how-to-transfer-learning-through-vgg16-and-vgg19-the-simpler-way-ad4eec1e2997
 
 <h1>What is Transfer learning?</h1> 
 In transfer learning, we use an existing model to solve different but related problems. Basically, we try to exploit what has been learned in one task and improve generalization in another task. We use the model's pre-trained weights or model architecture to solve our problem. In this blog, we are using the pre-trained weights of VGG16 and VGG19, change the output layer and solve a classification problem on the flower dataset.
