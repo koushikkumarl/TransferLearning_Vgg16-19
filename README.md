@@ -1,4 +1,4 @@
-Download the dataset from: https://www.kaggle.com/alxmamaev/flowers-recognition
+Download the dataset from: https://www.kaggle.com/alxmamaev/flowers-recognition <br>
 Checkout the article on transfer learning: https://medium.com/@koushik1102/how-to-transfer-learning-through-vgg16-and-vgg19-the-simpler-way-ad4eec1e2997
 
 <h1>What is Transfer learning?</h1> 
