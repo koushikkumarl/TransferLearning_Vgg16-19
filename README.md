@@ -24,6 +24,8 @@ All Max-pooling layers in VGG-16 have
 <li>Stride - 2
 </ul>
 
+![alt text](VGG16-architecture-16.png)
+
 <h3>2Conv - 1Maxpool - 2Conv - 1Maxpool - 3Conv - 1Maxpool - 3Conv - 1Maxpool - 3Conv - 1Maxpool - 1FC - 1FC - 1FC</h3>
 
 The architecture has 13 convolutional layers followed by 3 fully connected layers, adding up to 16 layers to learn weights and bias parameters and hence the name VGG-16.
@@ -32,3 +34,6 @@ VGG-19 architecture is very much similar to VGG-16. We have 3 additional convolu
 <h3>2Conv - 1Maxpool - 2Conv - 1Maxpool - 4Conv - 1Maxpool - 4Conv - 1Maxpool - 4Conv - 1Maxpool - 1FC - 1FC - 1FC</h3>
 
 VGG-16 and VGG-19 architectures, due to their depth are slow to train and produce models of very large size. Though the architectures we see here are different, we can create a simple template to perform transfer learning from these models with few lines of code. 
+
+![alt text](VGG19-architecture-19.jpg)
+
